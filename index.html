@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Calculateur S2</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Calculateur Semestre 2</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Module</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody id="notesTable"></tbody>
+  </table>
+
+  <button id="calculate">Calculer</button>
+  <button id="reset">Effacer les notes</button>
+
+  <div id="results"></div>
+
+  <canvas id="radarChart"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

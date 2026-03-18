@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  background: #f4f6fa;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background: rgb(196, 155, 155);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #4B74FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#results p {
+  padding: 10px;
+  border-radius: 6px;
+}
